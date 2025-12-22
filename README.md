@@ -23,3 +23,28 @@ An AI-powered NCERT chatbot tutor built using sentence transformers, semantic se
 ---
 
 ## 📂 Project Structure
+
+ai-ncert-chatbot/
+│
+├── app.py                     # Main Streamlit application
+│
+├── utils/
+│   └── file_loader.py         # Loads NCERT chapter text files
+│
+├── nlp/
+│   └── answer_engine.py       # Semantic search + confidence scoring
+│
+├── services/
+│   └── speech_service.py      # Converts voice input to text
+│
+├── data/
+│   └── ncert/
+│       ├── chapter1.txt
+│       ├── chapter2.txt
+│       └── ...
+│
+├── requirements.txt           # Project dependencies
+├── README.md                  # Project documentation
+└── LICENSE
+
+
