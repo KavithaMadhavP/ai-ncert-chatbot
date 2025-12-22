@@ -47,4 +47,24 @@ ai-ncert-chatbot/
 ├── README.md                  # Project documentation
 └── LICENSE
 
+---
+
+## ⚙️ Installation & Setup
+
+Follow these steps to run the project locally:
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/KavithaMadhavP/ai-ncert-chatbot.git
+cd ai-ncert-chatbot
+
+python -m venv venv
+
+venv\Scripts\activate
+
+source venv/bin/activate
+
+pip install -r requirements.txt
+
+streamlit run app.py
 
