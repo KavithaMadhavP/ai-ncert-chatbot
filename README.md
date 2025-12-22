@@ -60,3 +60,22 @@ Follow these steps to run the project locally:
 git clone https://github.com/KavithaMadhavP/ai-ncert-chatbot.git
 cd ai-ncert-chatbot
 
+2️⃣ Create a Virtual Environment
+python -m venv venv
+
+3️⃣ Activate the Virtual Environment
+
+Windows
+
+venv\Scripts\activate
+
+Mac / Linux
+
+source venv/bin/activate
+
+4️⃣ Install Dependencies
+pip install -r requirements.txt
+
+5️⃣ Run the Application
+streamlit run app.py
+
