@@ -1,15 +1,16 @@
 # AI NCERT Chatbot Tutor
 
-An AI-powered NCERT chatbot tutor built using sentence transformers, semantic search, and confidence-based answer filtering.
+An AI-powered NCERT chatbot tutor that answers Science questions (Classes 6–10) using semantic search and confidence-based answer filtering.
+
 
 ---
 
 ## 📌 Features
 - Answers NCERT Science questions (Classes 6–10)
-- Text and voice input support
-- Semantic search using embeddings
+- Supports text and voice input
+- Semantic search using sentence embeddings
 - Confidence-based answer filtering
-- Rejects non-NCERT / out-of-syllabus questions
+- Rejects out-of-syllabus / non-NCERT questions
 
 ---
 
@@ -19,6 +20,7 @@ An AI-powered NCERT chatbot tutor built using sentence transformers, semantic se
 - Sentence Transformers
 - NLP (Semantic Search)
 - Speech-to-Text
+
 
 ---
 
@@ -47,6 +49,7 @@ ai-ncert-chatbot/
 ├── README.md                  # Project documentation
 └── LICENSE
 
+
 ---
 
 ## ⚙️ Installation & Setup
@@ -60,22 +63,31 @@ Follow these steps to run the project locally:
 git clone https://github.com/KavithaMadhavP/ai-ncert-chatbot.git
 cd ai-ncert-chatbot
 
-2️⃣ Create a Virtual Environment
+### 2️⃣ Create & Activate Virtual Environment
+```bash
 python -m venv venv
 
-3️⃣ Activate the Virtual Environment
-
 Windows
-
 venv\Scripts\activate
 
 Mac / Linux
-
 source venv/bin/activate
 
-4️⃣ Install Dependencies
+### 3️⃣ Install Dependencies
+```bash
 pip install -r requirements.txt
 
-5️⃣ Run the Application
+### 4️⃣ Run the Application
+```bash
 streamlit run app.py
+
+
+## 🚀 Usage
+- Ask NCERT Science questions via text or voice
+- The chatbot searches NCERT content using semantic similarity
+- Answers are displayed only if confidence exceeds a threshold
+
+## 📜 License
+This project is licensed under the MIT License.
+
 
