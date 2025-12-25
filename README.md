@@ -145,6 +145,9 @@ NCERT Answer / Safe Response
 - Teacher/admin interface
 
 git remote add origin https://github.com/KavithaMadhavP/ai-ncert-chatbot.git
+git branch -M main
+git push -u origin main
+
 
 
 ## 📜 License
