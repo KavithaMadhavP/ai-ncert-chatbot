@@ -144,6 +144,8 @@ NCERT Answer / Safe Response
 - Student performance analytics dashboard
 - Teacher/admin interface
 
+git remote add origin https://github.com/KavithaMadhavP/ai-ncert-chatbot.git
+
 
 ## 📜 License
 This project is licensed under the MIT License.
