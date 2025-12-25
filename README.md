@@ -148,6 +148,23 @@ git remote add origin https://github.com/KavithaMadhavP/ai-ncert-chatbot.git
 git branch -M main
 git push -u origin main
 
+## 🚀 Deployment (Streamlit Cloud)
+
+The application is deployed using Streamlit Community Cloud.
+
+### Deployment Steps
+1. Push project to GitHub
+2. Go to https://streamlit.io/cloud
+3. Click New App
+4. Select:
+   - Repository: ai-ncert-chatbot
+   - Branch: main
+   - Main file: app.py
+5. Click Deploy
+
+🔗 Live App: https://ai-ncert-chatbot.streamlit.app
+
+
 
 
 ## 📜 License
