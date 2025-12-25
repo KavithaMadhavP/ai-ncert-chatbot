@@ -36,8 +36,7 @@ using confidence-based filtering.
 
 ai-ncert-chatbot/
 │
-├── app.py                     # Main Streamlit application
-│
+
 ├── utils/
 │   └── file_loader.py         # Loads NCERT chapter data
 │
@@ -54,6 +53,8 @@ ai-ncert-chatbot/
 │
 ├── logs/
 │   └── app.log                # Application logs
+├── app.py                     # Main Streamlit application
+│
 │
 ├── requirements.txt
 ├── README.md
