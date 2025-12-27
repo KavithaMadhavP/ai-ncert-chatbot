@@ -1,0 +1,6 @@
+streamlit
+sentence-transformers
+torch
+speechrecognition
+numpy
+scikit-learn
